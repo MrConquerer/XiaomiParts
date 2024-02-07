@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<permissions>
+    <privapp-permissions package="com.xiaomi.parts">
+        <permission name="android.permission.WRITE_SECURE_SETTINGS" />
+        <permission name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+        <permission name="com.xiaomi.permission.GAUGUIN_PARTS" />
+    </privapp-permissions>
+    <permission name="com.xiaomi.permission.GAUGUIN_PARTS" android:protectionLevel="signature" />
+    <permission name="android.permission.WRITE_SECURE_SETTINGS" android:protectionLevel="privileged" />
+    <permission name="android.permission.MANAGE_EXTERNAL_STORAGE" android:protectionLevel="signature" />
+</permissions>

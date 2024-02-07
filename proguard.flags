@@ -1,0 +1,3 @@
+-keepnames class org.lineageos.settings.** {
+  *;
+}
